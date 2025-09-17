@@ -5,8 +5,8 @@ for i in range(7):
     lista.append(szam)
 
 
-nagy=0
-kis=0
+nagy=float('-inf')
+kis=float('inf')
 poz=0
 neg=0
 nulla=0
@@ -24,4 +24,5 @@ for i in lista:
 
 print(f"A megadott számok közül {neg} negatív, {poz} pozitív, és {nulla} nulla volt")
 print(f"A legnagyobb szám: {nagy}")
+
 print(f"A legkisebb szám: {kis}")
